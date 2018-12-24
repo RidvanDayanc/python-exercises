@@ -1,0 +1,5 @@
+print("use , for seperate")
+myduplicatedarray = (input("Give Me List:")).split(",")
+print("Array which contains duplicated items is",myduplicatedarray)
+mycleararray = list(set(myduplicatedarray))
+print("Array which not contains Duplicated items is", mycleararray)
